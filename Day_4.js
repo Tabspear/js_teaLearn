@@ -31,6 +31,7 @@ if (typeof user1 !== "number" && typeof user2 !== "number") {
 }
 // If so, prompt the user again to input a number
 
+//USing Ternary Operators 
 //  function Abodi(){
 //     Input_Num1 > Input_Num2 ? alert(Input_Num1): Input_Num2 > Input_Num1 ? (alert(Input_Num2)):alert("No value found")
 //  }

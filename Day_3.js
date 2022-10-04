@@ -16,9 +16,9 @@ for (let i = reversedUserName.length; i >= 0; i--) {
 
 // Challenge 2
 // Prompt for a number value (provide a default of 10)
-let firstNum = prompt("Input a number")
+let firstNum = prompt("Input a number", 10)
 // Prompt for a second number value (provide a default of 10)
-let secondNum = prompt("Input another number")
+let secondNum = prompt("Input another number", 10)
 // Convert the prompted values into integers using parseInt()
 let addedNum = parseInt(firstNum)+parseInt(secondNum)
 // Add the numbers together and alert the user with the result
